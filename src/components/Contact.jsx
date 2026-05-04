@@ -58,8 +58,8 @@ const Contact = () => {
             
             <div className="space-y-4">
               {[
-                { icon: <FiMail className="text-accent" />, label: 'Email', value: 'syed.haider@example.com' },
-                { icon: <FiPhone className="text-accent" />, label: 'Phone', value: '+92 300 1234567' },
+                { icon: <FiMail className="text-accent" />, label: 'Email', value: 'syedhaidera314@gmail.com' },
+                { icon: <FiPhone className="text-accent" />, label: 'Phone', value: '03296818462' },
                 { icon: <FiMapPin className="text-accent" />, label: 'Location', value: 'Pakistan' },
               ].map((info) => (
                 <motion.div
