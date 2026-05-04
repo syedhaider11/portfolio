@@ -67,7 +67,11 @@ const Experience = () => {
                 color: '#fff',
                 boxShadow: '0 0 10px rgba(99, 102, 241, 0.5)',
               }}
-              icon={<span className="text-2xl">{exp.icon}</span>}
+              icon={
+                <div className="flex items-center justify-center w-full h-full text-2xl">
+                  {exp.icon}
+                </div>
+              }
               visible={inView}
             >
               <motion.div
